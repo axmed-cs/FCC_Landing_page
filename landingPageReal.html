@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="landingPage.css">
+    <title>Product Page</title>
+
+</head>
+<body>
+    
+    <header id="header">
+        <img id="header-img" width="50" src="logo.png" alt="logo">
+        <nav id="nav-bar">
+            <ul class="list">
+                <li><a class="nav-link" href="#product">Product</a></li>
+                <li><a class="nav-link" href="#price">Price</a></li>
+                <li><a class="nav-link" href="#reviews">Reviews</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="container">
+        <!-- product section --> 
+        <section id="product" role="region" aria-labelledby="product">
+            <div id="product-info">
+                <h1>Global Eyewear</h1>
+                <p>We do what we do best, sell glasses.</p>
+                <img id="product-img" src="https://img.freepik.com/free-photo/male-hand-holding-glasses-isolated_155003-2586.jpg?w=1480&t=st=1716652212~exp=1716652812~hmac=97a8620e60076451488a9a28bc265ad34da59fb2f07bb8102ac7e86a5db7e374"
+                 alt="man holding glasses">
+                <iframe id="video" src="https://www.youtube-nocookie.com/embed/SGrszFeFVhU?si=9g3XBuNDMcSiWQcG" frameborder="0"></iframe>
+                <p class="note">(disclaimer this vid above is not mine)</p>
+                <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                    <label for="email">Subscribe to our services and  get a discount for future purchases!</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email">
+                    <input id="submit" type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        
+
+        <!-- price section -->
+        <section id="price" role="region" aria-labelledby="price">
+            <h1>Buy now:</h1>
+            <div id="price-info">
+                <div class="price-inner">
+                    <h3>Basic Package</h3>
+                    <p>Includes:</p>
+                    <ul>
+                        <li>Brand new Eyewear</li>
+                        <li>Glasses care kit</li>
+                        <li><s>6 month waranty</s></li>
+                        <li><s>Extra lenses</s></li>
+                    </ul>
+                    <p>$89.99 or $24.99/month</p>
+                    <button>Purchase</button>
+                </div>
+                <div class="price-inner">
+                    <h3>Standard Package (recommended) </h3>
+                    <p>Includes:</p>
+                    <ul>
+                        <li>Brand new Eyewear</li>
+                        <li>Glasses care kit</li>
+                        <li>6 month waranty</li>
+                        <li><s>Extra lenses</s></li>
+                    </ul>
+                    <p>$129.99 or 34.99/month</p>
+                    <button>Purchase</button>
+                </div>
+                <div class="price-inner">
+                    <h3>Premium Package</h3>
+                    <p>Includes:</p>
+                    <ul>
+                        <li>Brand new Eyewear</li>
+                        <li>Glasses care kit</li>
+                        <li>12 month waranty</li>
+                        <li>Extra lenses</li>
+                        <li>Extra pair of sunglasses</li>
+                    </ul>
+                    <p>$169.99 or $45.99/month</p>
+                    <button>Purchase</button>
+                </div> 
+            </div>
+        </section>
+
+
+        <!-- reviews section -->
+        <section id="reviews" role="region" aria-labelledby="reviews">
+            <div id="reviews-info">
+                <h1>Customer Reviews</h1> 
+                <h3>(3 reviews - 5/5rating)</h3>
+                <div class="customer-reviews">
+                    <p><i class="fas fa-user-circle"></i> Sebastian</p>
+                    <p><span style="color:goldenrod"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                    <p class="review-words">I cannot say enough good things about eyewear!
+                        As someone who is constantly on the go and exposed 
+                        to harsh sunlight, finding the perfect pair of sunglasses 
+                        was crucial for me. Thankfully, I stumbled upon eyewear and 
+                        I have never looked back. These glasses not only provide excellent 
+                        protection for my eyes, but the quality is truly amazing. I have 
+                        never experienced any discomfort or irritation while wearing them. </p>
+                </div>
+                <div class="customer-reviews">
+                    <p><i class="fas fa-user-circle"></i> Molly</p>
+                    <p><span style="color:goldenrod"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                    <p class="review-words">What I love most about eyewear is the variety of designs they offer. I have 
+                        a monthly subscription and I am always excited to see what new styles they 
+                        come out with. It's like Christmas every month! And the best part is, they 
+                        look great on me. I have received so many compliments while wearing them. </p>
+                </div>
+                <div class="customer-reviews">
+                    <p><i class="fas fa-user-circle"></i> Johnson</p>
+                    <p><span style="color:goldenrod"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                    <p class="review-words">What truly sets eyewear apart is their customization options. They truly 
+                        cater to everyone's preferences. Whether you prefer a classic, timeless look 
+                        or something more bold and trendy, they have it all. I have recommended eyewear 
+                        to all my friends and family and I will definitely be a loyal customer for years 
+                        to come. Thank you eyewear for making me look and feel great while protecting my eyes!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" role="region" aria-labelledby="about">
+            <div id="about-info">
+            <h1>A little about us</h1>
+            <p>Our goal is to bring quality glasses that are custom and tailored based on our customers' needs.</p>
+            <p>Over the past 7 years we have cultivated loyal customers and members and proved
+                our passion towards our craft. <a href="#">Read more...</a>
+            </p>
+        </section>
+
+       <!-- footer --> 
+        <footer id="footer">
+            <div class="footer-company">
+                <h4>Company</h4>
+                <ul class="footer-links company-links">
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Copyright Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>Connect with us</h4>
+                <ul class="footer-links social-links">
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-square-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        </div>
+    </main>
+</body>
+</html>
